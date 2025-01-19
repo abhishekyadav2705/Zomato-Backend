@@ -1,5 +1,12 @@
 package com.zomato.backend.entities.enums;
 
 public enum OrderStatus {
-    PENDING,CONFIRMED,DELIVERED,CANCELLED
+    PENDING,
+    CONFIRMED,
+    PREPARING,
+    READY_FOR_PICKUP,
+    OUT_FOR_DELIVERY,
+    DELIVERED,
+    CANCELLED,
+    REFUNDED
 }
